@@ -2,7 +2,7 @@
 console.log("This is an exercise in console logging");
 
 // 2
-const exercise = "This is the value";
+const exercise = "This is the value.";
 console.log(exercise);
 
 // 3
@@ -14,17 +14,17 @@ console.log(firstName, lastName);
 const city = "Hamburg";
 const job = "Programmer";
 const age = 36;
-console.log(firstName, lastName, city, job, age);
+console.log(firstName, lastName, age, city, job);
 
 // 5
 console.log(
-  firstName,
-  lastName +
+  firstName +
+    " " +
+    lastName +
     " is a " +
     age +
-    " years old " +
+    " year old " +
     job +
     " who lives in " +
-    city +
-    "."
+    city
 );
