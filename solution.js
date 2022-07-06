@@ -7,7 +7,7 @@ console.log(exercise);
 
 // 3
 const firstName = "Rafael";
-const lastName = "B Oliveira";
+const lastName = "Oliveira";
 console.log(firstName, lastName);
 
 // 4
